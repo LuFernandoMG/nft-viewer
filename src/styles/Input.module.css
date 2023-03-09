@@ -1,0 +1,61 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 20px 20px 60px 20px;
+}
+
+.input {
+  border: none;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background: #3e4c78;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 24px 24px 33px #354166, -24px -24px 33px #47578a;
+  box-shadow: 24px 24px 33px #354166, -24px -24px 33px #47578a;
+}
+
+.wrapper input {
+  height: 100%;
+  width: 100%;
+  padding-left: 45px;
+  font-size: 18px;
+  padding: 15px;
+  outline: none;
+  border: none;
+  color: #595959;
+  background: #b3e2f5;
+  border-radius: 500px;
+  box-shadow: inset 2px 2px 5px #93cce2, inset -5px -5px 10px #c4ebfa;
+}
+
+.button {
+  padding: 15px;
+  background: #b3e2f5;
+  border: none;
+  border-radius: 0.5rem;
+  color: #595959;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  box-shadow: -6px -6px 14px #c2eafa,
+    -6px -6px 10px #c4ebfa,
+    6px 6px 8px #93cce2, 6px 6px 10px #77b9d3;
+}
+.button:hover {
+  box-shadow: -2px -2px 6px #c4ebfa,
+    -2px -2px 4px #93cce2,
+    2px 2px 2px #93cce2, 2px 2px 4px #77b9d3;
+}
+.button:active {
+  box-shadow: inset -2px -2px 6px #c2eafa,
+    inset -2px -2px 4px #c4ebfa,
+    inset 2px 2px 2px #a2ddf4,
+    inset 2px 2px 4px #84c6e0;
+}
